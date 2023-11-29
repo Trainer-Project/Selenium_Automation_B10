@@ -1,5 +1,6 @@
 Feature: Validate login functionalties 
 
+@login
 Scenario: Valid able loging the application. 
 
 	Given User is able to open any browser 
