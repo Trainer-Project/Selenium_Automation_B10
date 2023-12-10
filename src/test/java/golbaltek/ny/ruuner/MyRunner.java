@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(	
 		plugin= {"pretty","json:target/cucumber.json" }, 
 		features = {"./Features/"},
-		glue = {"golbaltek.ny.stepdefintions"},
+		glue = {"golbaltek.ny.stepdefintions","golbaltek.ny.hooks"},
 		tags = "@login"
 		)
 public class MyRunner extends AbstractTestNGCucumberTests{

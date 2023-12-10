@@ -1,20 +1,17 @@
 package golbaltek.ny.stepdefintions;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import golbaltek.ny.basepage.BasePage;
 import golbaltek.ny.elements.LoginPage;
 import golbaltek.ny.generic.CommonUtil;
 import io.cucumber.java.en.*;
 
-
 public class LoginStefDef extends BasePage{
 	LoginPage pf;
 	
 	@Given("User is able to open any browser")
-	public void user_is_able_to_open_any_browser() {
-		BasePage.getInitialization();	
+	public void user_is_able_to_open_any_browser() {	
 		pf = new LoginPage();
 	}
 	@Given("User is able to enter the URL")

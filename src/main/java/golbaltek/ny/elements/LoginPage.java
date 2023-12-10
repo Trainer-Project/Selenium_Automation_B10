@@ -22,6 +22,11 @@ public class LoginPage extends BasePage {
 		return clickOnSignIn;
 	}
 
+	
+	
+	
+	
+	
 	@FindBy(xpath = "(//*[@class='input-text'])[2]")
 	@CacheLookup
 	private WebElement enterUserName;
